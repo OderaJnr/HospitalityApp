@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FC3182</color>
+    <color name="colorPrimaryDark">#FC3182</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="cardColor">#ffffff</color>
+    <color name="textcardColor">#FC3182</color>
+
+    <color name="contentTextColor">#fcfcfc</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="receivercolor">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="colorBackground">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="darktextcolor">#66000000</color>
+
+
+    <color name="red">#F15050</color>
+
+    <color name="red_dark">#d43c3c</color>
+
+    <color name="yellow">#EED45A</color>
+
+    <color name="yellow_dark">#d4bb46</color>
+
+    <color name="lime">#BCE24A</color>
+
+    <color name="lime_dark">#9dbf35</color>
+
+    <color name="green">#48D26B</color>
+
+    <color name="green_dark">#339E4D</color>
+
+    <color name="blue">#48DFE1</color>
+
+    <color name="blue_dark">#37c4c6</color>
+
+    <color name="darkblue">#5A9CEE</color>
+
+    <color name="darkblue_dark">#417eca</color>
+
+    <color name="darkviolet">#7E50F1</color>
+
+    <color name="darkviolet_dark">#683dd4</color>
+
+    <color name="violet">#D65AEE</color>
+
+    <color name="violet_dark">#b33ec9</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorSplashText">#F0F0F0</color>
+
+    <color name="colorProgressBar">#FFCE511C</color>
+
+    <color name="colorTextView">#83898E</color>
+</resources>

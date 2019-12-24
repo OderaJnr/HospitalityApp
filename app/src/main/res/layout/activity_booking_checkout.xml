@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/edittextboxbackgroud">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/order_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="USER NAME"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_light_default"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cart_product_quantity"
+                    android:layout_marginTop="2dp"
+                    android:hint="Phone Number"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_overlay"
+                    tools:ignore="UnknownId" />
+
+
+
+
+                <TextView
+                    android:id="@+id/checkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cart_product_quantity"
+                    android:layout_marginTop="10dp"
+                    android:hint="Check In"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_overlay"
+                    tools:ignore="UnknownId" />
+
+                <TextView
+                    android:id="@+id/checkout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cart_product_quantity"
+                    android:layout_marginTop="10dp"
+                    android:hint="Check Out"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_overlay"
+                    tools:ignore="UnknownId" />
+
+                <TextView
+                    android:id="@+id/guests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cart_product_quantity"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17sp"
+                    android:text="Guests"
+                    android:textColor="@color/black_overlay"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:id="@+id/checkoutlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:textColor="@color/black_overlay"
+                    tools:ignore="UnknownId" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cart_product_quantity"
+                            android:hint="Adults"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/colorBackground"
+                            android:textSize="17sp"
+                            tools:ignore="UnknownId" />
+
+                        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                            android:id="@+id/adultselegantbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:layout_marginLeft="85dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@color/colorAccent">
+
+                        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cart_product_quantity"
+                            android:hint="Children"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/colorBackground"
+                            android:textSize="17sp"
+                            tools:ignore="UnknownId" />
+
+                        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                            android:id="@+id/childrenButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="70dp"
+                            android:background="@color/white">
+
+                        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cart_product_quantity"
+                            android:hint="Infants"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/colorBackground"
+                            android:textSize="17sp"
+                            tools:ignore="UnknownId" />
+
+                        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                            android:id="@+id/infantsbtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="80dp"
+                            android:background="@color/white">
+
+                        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/book_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="39dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittextboxbackgroud"
+                        android:text="Book"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"></Button>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

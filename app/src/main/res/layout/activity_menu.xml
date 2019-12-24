@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MenuActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler6_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:scrollbars="vertical"
+        tools:ignore="MissingConstraints">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/Totalpricetxview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Amount"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <Button
+            android:id="@+id/orderbtn"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons_backgound"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="CHECKOUT"
+            android:textColor="@color/white"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

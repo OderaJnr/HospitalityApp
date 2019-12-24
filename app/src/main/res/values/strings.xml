@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hospitality App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="tittle_menu">Hotel Menu</string>
+
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_business_profile_setting">Settings</string>
+</resources>

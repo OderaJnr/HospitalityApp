@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/pricelocationSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"></Spinner>
+
+
+            <Spinner
+                android:id="@+id/pricecategoryspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/inputamount"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextboxbackgroud"
+                android:hint="How would you like to spend on this?"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textAlignment="center"></EditText>
+
+
+            <Button
+                android:id="@+id/searchbtn"
+                android:layout_width="55dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="0dp"
+                android:background="@drawable/button_drawable"
+                android:padding="10dp"
+                android:text="OK"
+                android:textAlignment="center"
+                android:textColor="@color/white"></Button>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler6_menu"
+        android:layout_width="match_parent"
+        android:layout_height="577dp"
+        android:layout_marginTop="5dp"
+        android:scrollbars="vertical"
+        tools:ignore="MissingConstraints">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/Totalpricetxview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="Total Amount"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textColor="@color/green"></TextView>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/orderbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECKOUT"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:visibility="gone"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
